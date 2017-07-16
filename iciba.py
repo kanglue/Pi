@@ -3,6 +3,7 @@
 
 import urllib.request
 from urllib.request import urlopen
+import requests
 from bs4 import BeautifulSoup
 
 html = urlopen("http://www.iciba.com/initiative/")
